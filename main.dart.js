@@ -100707,17 +100707,17 @@ $1(a){return this.a.c},
 $S:118}
 A.ua.prototype={
 kt(a){return this.a7i(a)},
-a7i(p1){var s=0,r=A.F(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,g1,g2,g3,g4,g5,g6,g7,g8,g9,h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,j0,j1,j2,j3,j4,j5,j6,j7,j8,j9,k0,k1,k2,k3,k4,k5,k6,k7,k8,k9,l0,l1,l2,l3,l4,l5,l6,l7,l8,l9,m0,m1,m2,m3,m4,m5,m6,m7,m8,m9,n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,o0,o1,o2,o3,o4,o5,o6,o7,o8,o9,p0
-var $async$kt=A.G(function(p3,p4){if(p3===1)return A.C(p4,r)
-while(true)switch(s){case 0:p0=new A.ka(B.kz,B.kA,A.Ob("","","","","","","","","","","","","","","",""))
+a7i(p3){var s=0,r=A.F(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,g1,g2,g3,g4,g5,g6,g7,g8,g9,h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,j0,j1,j2,j3,j4,j5,j6,j7,j8,j9,k0,k1,k2,k3,k4,k5,k6,k7,k8,k9,l0,l1,l2,l3,l4,l5,l6,l7,l8,l9,m0,m1,m2,m3,m4,m5,m6,m7,m8,m9,n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,o0,o1,o2,o3,o4,o5,o6,o7,o8,o9,p0,p1,p2
+var $async$kt=A.G(function(p5,p6){if(p5===1)return A.C(p6,r)
+while(true)switch(s){case 0:p2=new A.ka(B.kz,B.kA,A.Ob("","","","","","","","","","","","","","","",""))
 A.Ob("","","","","","","","","","","","","","","","")
 h2=t.s
 h3=A.a([],h2)
 h4=t.N
 h5=t.z
 s=2
-return A.B(A.aA(null).ai(u.B,A.ar(["PO",p1],h4,h4),h5),$async$kt)
-case 2:h6=p4
+return A.B(A.aA(null).ai(u.B,A.ar(["PO",p3],h4,h4),h5),$async$kt)
+case 2:h6=p6
 s=h6.c===200?3:4
 break
 case 3:h7=h6.a
@@ -100799,6 +100799,7 @@ if(k7==null)A.er(k6)
 else k7.$1(k6)
 if(A.U(k0)<1)k5=k0+" AQL"
 J.d(J.b(J.b(J.b(p,"INCOMMING"),n),"LOAD"))
+J.d(J.b(J.b(J.b(p,"FINAL"),n),"AQL"))
 for(k8="",k9=0;k9<j9.gp(i8);++k9)if(J.d(J.b(j9.h(i8,k9),"masterID"))===k1)k8=J.d(J.b(j9.h(i8,k9),"ITEMs"))
 k9=0
 while(!0){if(!(k9<j8.gp(i9))){l0=""
@@ -100865,7 +100866,7 @@ a=A.U(A.T(J.d(J.b(g,"HIM_L"))))}else{k4=f
 l3=J.ad(k4)
 l4=l3.gp(k4)
 if(0>l4)A.O(A.bz(0,0,l3.gp(k4),null,null))
-if(A.cv(k4,"Actual",0))m="Actual"}}}}}catch(p2){a0=A.ap(p2)
+if(A.cv(k4,"Actual",0))m="Actual"}}}}}catch(p4){a0=A.ap(p4)
 k6=A.l(a0)
 k7=$.eH
 if(k7==null)A.er(k6)
@@ -100881,13 +100882,13 @@ l7=h8.h(j4,"FG_CHARG")!=null?J.d(h8.h(j4,"FG_CHARG")):""
 l8=h8.h(j4,"MATERIAL")!=null?J.d(h8.h(j4,"MATERIAL")):""
 l9=h8.h(j4,"QTY")!=null?J.d(h8.h(j4,"QTY")):""
 m0=A.Ob(j3,j2,j8,l6,j9,"","",j1,l8,l3,l4,h9,k4,l9,l7,h8.h(j4,"UNITSAP")!=null?J.d(h8.h(j4,"UNITSAP")):"PCS")
-s=J.d(h8.h(j4,"ReferFrom"))!==p1?7:8
+s=J.d(h8.h(j4,"ReferFrom"))!==p3?7:8
 break
 case 7:s=h8.h(j4,"ReferFrom")!=null?9:10
 break
 case 9:s=11
 return A.B(A.aA(null).ai(u.B,A.ar(["PO",J.d(h8.h(j4,"ReferFrom"))],h4,h4),h5),$async$kt)
-case 11:m1=p4
+case 11:m1=p6
 if(m1.c===200){m2=m1.a
 h8=J.ad(m2)
 h9=h8.h(m2,"DATA")
@@ -100910,14 +100911,17 @@ k7=$.eH
 if(k7==null)A.er(k6)
 else k7.$1(k6)
 if(A.U(k0)<1)k5=k0+" AQL"
-m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
+m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"AQL"))
+m8=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"AQLV"))
+if(m7==="YES")k5=m8+"% AQL/Lot"
+m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
 k9=0
 while(!0){if(!(k9<h9.gp(i4))){l0=""
 break}if(J.d(J.b(h9.h(i4,k9),"masterID"))===""){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
 break}++k9}for(k8="",k3="",k9=0;k9<j8.gp(i3);++k9)if(J.d(J.b(j8.h(i3,k9),"key"))===k1){k8=J.d(J.b(j8.h(i3,k9),"value"))
 k3=J.d(J.b(j8.h(i3,k9),"METHOD"))}for(k9=0;k9<h9.gp(i4);++k9)if(J.d(J.b(h9.h(i4,k9),"masterID"))===k3){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
 break}for(m="",l2=0;l2<h8.gp(i5);++l2)if(J.d(J.b(h8.h(i5,l2),"masterID"))===J.d(J.b(J.b(J.b(p,"FINAL"),a1),"SPECIFICATIONve")))m=J.d(J.b(h8.h(i5,l2),"SPECIFICATION"))
-j5.push(new A.mK("Text",k8,l0,k2,k5,m,m,B.PG,m7,"","",""))}s=J.f(J.b(J.b(J.b(p,"FINAL"),a1),"RESULTFORMAT"),"Number")?15:16
+j5.push(new A.mK("Text",k8,l0,k2,k5,m,m,B.PG,m9,"","",""))}s=J.f(J.b(J.b(J.b(p,"FINAL"),a1),"RESULTFORMAT"),"Number")?15:16
 break
 case 15:++m4
 m6=0
@@ -100934,9 +100938,9 @@ l7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"FREQUENCY"))
 l7=A.b7(l7,"?","pcs/Lot")
 l7=A.b7(l7,"[]","pcs/Lot")
 a3=""
-m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
-m8=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"SRAWDATA"))
-m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"RESULTDSW"))
+m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
+n0=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"SRAWDATA"))
+n1=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"RESULTDSW"))
 a4=0
 a5=0
 l8=new A.rv($,new A.p0(A.a([B.ej],l4)),$,new A.qW(A.a77()),!1)
@@ -100945,10 +100949,10 @@ l8.n0$=l9
 l8.kN$=new A.r3(A.aY(l3))
 s=24
 return A.B(l8.ai(u.E,A.ar(["masterID",J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")):""],h4,h4),h5),$async$kt)
-case 24:n0=p4
-if(n0.c===200){h7=n0.a
+case 24:n2=p6
+if(n2.c===200){h7=n2.a
 l8=J.ad(h7)
-n1=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n1=""
+n3=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n3=""
 try{a6=A.b7(a2,"{",'{"')
 a7=A.b7(a6,"}",'"}')
 a8=A.b7(a7,":",'":"')
@@ -100960,32 +100964,32 @@ b3=""
 for(b4=0;b4<J.a2(o);++b4)if(J.f(b2,J.d(J.b(J.b(o,b4),"masterID")))){b3=J.d(J.b(J.b(o,b4),"UNIT"))
 break}l8=b1
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"BTW",0)){l8=J.d(J.b(b0,"BTW_LOW"))
 l9=J.d(J.b(b0,"BTW_HI"))
-n2=b3
-a3=l8+"-"+l9+" "+A.b7(n2,"?","\xb5")
+n4=b3
+a3=l8+"-"+l9+" "+A.b7(n4,"?","\xb5")
 a4=A.U(A.T(J.d(J.b(b0,"BTW_HI"))))
 a5=A.U(A.T(J.d(J.b(b0,"BTW_LOW"))))}else{l8=b1
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"LOL(<)",0)){l8=J.d(J.b(b0,"LOL_H"))
 l9=b3
 a3="\u2264 "+l8+" "+A.b7(l9,"?","\xb5")
 a4=A.U(A.T(J.d(J.b(b0,"LOL_H"))))}else{l8=b1
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"HIM(>)",0)){l8=J.d(J.b(b0,"HIM_L"))
 l9=b3
 a3="\u2265 "+l8+" "+A.b7(l9,"?","\xb5")
 a5=A.U(A.T(J.d(J.b(b0,"HIM_L"))))}else{l8=b1
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
-if(A.cv(l8,"Actual",0))a3="Actual"}}}}}catch(p2){b5=A.ap(p2)
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
+if(A.cv(l8,"Actual",0))a3="Actual"}}}}}catch(p4){b5=A.ap(p4)
 k6=A.l(b5)
 k7=$.eH
 if(k7==null)A.er(k6)
@@ -100993,47 +100997,47 @@ else k7.$1(k6)}for(k8="",k3="",k9=0;k9<j8.gp(i3);++k9)if(J.d(J.b(j8.h(i3,k9),"ke
 k3=J.d(J.b(j8.h(i3,k9),"METHOD"))}k9=0
 while(!0){if(!(k9<h9.gp(i4))){l0=""
 break}if(J.d(J.b(h9.h(i4,k9),"masterID"))===k3){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
-break}++k9}n4=0
-while(!0){if(!(n4<k4.gp(i7))){n3=1
-break}if(J.d(J.b(k4.h(i7,n4),"ITEMs"))===k1){n3=A.cE(A.T(J.b(k4.h(i7,n4),"DESIMAL01")),null)
-break}++n4}n5=A.a([],j9)
-for(n6=0;n6<20;){++n6
-l8="PSC"+n6
-if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n7=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
-n8=A.a7c()
+break}++k9}n6=0
+while(!0){if(!(n6<k4.gp(i7))){n5=1
+break}if(J.d(J.b(k4.h(i7,n6),"ITEMs"))===k1){n5=A.cE(A.T(J.b(k4.h(i7,n6),"DESIMAL01")),null)
+break}++n6}n7=A.a([],j9)
+for(n8=0;n8<20;){++n8
+l8="PSC"+n8
+if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n9=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
+o0=A.a7c()
 k6=A.l(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA"))
 k7=$.eH
 if(k7==null)A.er(k6)
 else k7.$1(k6)
-n9=(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")):"")==="yes"?"PO5":"PO3"
-for(l8=J.ad(n7),o0=0;o0<J.Nt(l8.gp(n7),1);++o0)if(o0===0){n8.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===1){n8.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===2){n8.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===3){n8.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===4){n8.w=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===5){n8.x=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===6){n8.y=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===7){n8.z=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===8){n8.Q=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===9){n8.as=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===10){n8.at=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===11){n8.ax=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===12){n8.ay=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===13){n8.ch=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===14){n8.CW=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===15){n8.cx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===16){n8.cy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===17){n8.db=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===18){n8.dx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}else if(o0===19){n8.dy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))),n3)
-h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n7,o0),n9)))))))}n8.x2=J.d(J.b(l8.h(n7,o0),n9))
-n8.b=o0
-n5.push(n8)}else break}for(o1=0,o2=0;l8=n5.length,o2<l8;++o2)o1+=A.U(A.T(n5[o2].x2))
-l8=o1/l8
+o1=(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")):"")==="yes"?"PO5":"PO3"
+for(l8=J.ad(n9),o2=0;o2<J.Nt(l8.gp(n9),1);++o2)if(o2===0){o0.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===1){o0.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===2){o0.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===3){o0.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===4){o0.w=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===5){o0.x=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===6){o0.y=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===7){o0.z=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===8){o0.Q=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===9){o0.as=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===10){o0.at=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===11){o0.ax=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===12){o0.ay=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===13){o0.ch=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===14){o0.CW=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===15){o0.cx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===16){o0.cy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===17){o0.db=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===18){o0.dx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}else if(o2===19){o0.dy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))),n5)
+h3.push(String(A.bA(a4,a5,A.U(A.T(J.d(J.b(l8.h(n9,o2),o1)))))))}o0.x2=J.d(J.b(l8.h(n9,o2),o1))
+o0.b=o2
+n7.push(o0)}else break}for(o3=0,o4=0;l8=n7.length,o4<l8;++o4)o3+=A.U(A.T(n7[o4].x2))
+l8=o3/l8
 if(l8===0)m5="N/A"
 l9=a3
-l8=m9!=="YES"?B.c.O(l8,n3):"See at table"
-j5.push(new A.mK("Number",k8,l0,k2,k0+" "+l7,l9,l8,n5,m7,"",n1,m8))
+l8=n1!=="YES"?B.c.O(l8,n5):"See at table"
+j5.push(new A.mK("Number",k8,l0,k2,k0+" "+l7,l9,l8,n7,m9,"",n3,n0))
 case 23:case 21:case 18:++m6
 s=17
 break
@@ -101045,7 +101049,7 @@ l7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"FREQUENCY"))
 l7=A.b7(l7,"?","pcs/Lot")
 l7=A.b7(l7,"[]","pcs/Lot")
 b7=""
-m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
+m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
 try{b8=A.b7(b6,"{",'{"')
 b9=A.b7(b8,"}",'"}')
 c0=A.b7(b9,":",'":"')
@@ -101059,32 +101063,32 @@ c7=""
 for(c8=0;c8<J.a2(o);++c8)if(J.f(c6,J.d(J.b(J.b(o,c8),"masterID")))){c7=J.d(J.b(J.b(o,c8),"UNIT"))
 break}l8=c3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"BTW",0)){l8=J.d(J.b(c2,"BTW_LOW"))
 l9=J.d(J.b(c2,"BTW_HI"))
-n2=c7
-b7=l8+"-"+l9+" "+A.b7(n2,"?","\xb5")
+n4=c7
+b7=l8+"-"+l9+" "+A.b7(n4,"?","\xb5")
 c4=A.U(A.T(J.d(J.b(c2,"BTW_HI"))))
 c5=A.U(A.T(J.d(J.b(c2,"BTW_LOW"))))}else{l8=c3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"LOL(<)",0)){l8=J.d(J.b(c2,"LOL_H"))
 l9=c7
 b7="\u2264 "+l8+" "+A.b7(l9,"?","\xb5")
 c4=A.U(A.T(J.d(J.b(c2,"LOL_H"))))}else{l8=c3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"HIM(>)",0)){l8=J.d(J.b(c2,"HIM_L"))
 l9=c7
 b7="\u2265 "+l8+" "+A.b7(l9,"?","\xb5")
 c5=A.U(A.T(J.d(J.b(c2,"HIM_L"))))}else{l8=c3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
-if(A.cv(l8,"Actual",0))b7="Actual"}}}}}catch(p2){c9=A.ap(p2)
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
+if(A.cv(l8,"Actual",0))b7="Actual"}}}}}catch(p4){c9=A.ap(p4)
 k6=A.l(c9)
 k7=$.eH
 if(k7==null)A.er(k6)
@@ -101092,70 +101096,70 @@ else k7.$1(k6)}for(k8="",k3="",k9=0;k9<j8.gp(i3);++k9)if(J.d(J.b(j8.h(i3,k9),"ke
 k3=J.d(J.b(j8.h(i3,k9),"METHOD"))}k9=0
 while(!0){if(!(k9<h9.gp(i4))){l0=""
 break}if(J.d(J.b(h9.h(i4,k9),"masterID"))===k3){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
-break}++k9}n4=0
-while(!0){if(!(n4<k4.gp(i7))){n3=1
-break}if(J.d(J.b(k4.h(i7,n4),"ITEMs"))===k1){n3=A.cE(A.T(J.b(k4.h(i7,n4),"DESIMAL01")),null)
-break}++n4}n5=A.a([],j9)
-for(n6=0;n6<20;){++n6
-l8="PSC"+n6
-if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n7=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
-n8=A.a7c()
-for(l8=J.ad(n7),o0=0;o0<J.Nt(l8.gp(n7),1);++o0)if(o0===0){n8.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.fr=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===1){n8.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.fx=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===2){n8.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.fy=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===3){n8.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.go=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===4){n8.w=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.id=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===5){n8.x=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.k1=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===6){n8.y=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.k2=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===7){n8.z=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.k3=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===8){n8.Q=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.k4=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===9){n8.as=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.ok=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===10){n8.at=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.p1=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===11){n8.ax=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.p2=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===12){n8.ay=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.p3=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===13){n8.ch=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.p4=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===14){n8.CW=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.R8=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===15){n8.cx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.RG=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===16){n8.cy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.rx=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===17){n8.db=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.ry=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===18){n8.dx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.to=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}else if(o0===19){n8.dy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))),n3)
-n8.x1=B.c.j(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO8")))))
-h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n7,o0),"PO3")))))))}n8.x2=J.d(J.b(l8.h(n7,o0),"PO3"))
-n8.b=o0
-n5.push(n8)}else break}for(o1=0,o2=0;o2<n5.length;++o2)o1+=A.U(A.T(n5[o2].x2))
+break}++k9}n6=0
+while(!0){if(!(n6<k4.gp(i7))){n5=1
+break}if(J.d(J.b(k4.h(i7,n6),"ITEMs"))===k1){n5=A.cE(A.T(J.b(k4.h(i7,n6),"DESIMAL01")),null)
+break}++n6}n7=A.a([],j9)
+for(n8=0;n8<20;){++n8
+l8="PSC"+n8
+if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n9=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
+o0=A.a7c()
+for(l8=J.ad(n9),o2=0;o2<J.Nt(l8.gp(n9),1);++o2)if(o2===0){o0.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.fr=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===1){o0.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.fx=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===2){o0.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.fy=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===3){o0.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.go=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===4){o0.w=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.id=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===5){o0.x=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.k1=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===6){o0.y=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.k2=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===7){o0.z=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.k3=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===8){o0.Q=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.k4=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===9){o0.as=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.ok=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===10){o0.at=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.p1=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===11){o0.ax=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.p2=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===12){o0.ay=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.p3=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===13){o0.ch=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.p4=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===14){o0.CW=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.R8=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===15){o0.cx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.RG=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===16){o0.cy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.rx=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===17){o0.db=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.ry=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===18){o0.dx=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.to=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}else if(o2===19){o0.dy=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))),n5)
+o0.x1=B.c.j(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO8")))))
+h3.push(String(A.bA(0,0,A.U(A.T(J.d(J.b(l8.h(n9,o2),"PO3")))))))}o0.x2=J.d(J.b(l8.h(n9,o2),"PO3"))
+o0.b=o2
+n7.push(o0)}else break}for(o3=0,o4=0;o4<n7.length;++o4)o3+=A.U(A.T(n7[o4].x2))
 l8=k1+"_point"
 k6=A.l(J.b(l6.h(i0,l8),"y"))
 k7=$.eH
 if(k7==null)A.er(k6)
 else k7.$1(k6)
-o3=l6.h(i0,k1)!=null?J.d(l6.h(i0,k1)):""
-o4=l6.h(i0,l8)!=null?J.d(J.b(l6.h(i0,l8),"y")):""
-k6=B.c.O(A.U(A.T(o3)),2)
+o5=l6.h(i0,k1)!=null?J.d(l6.h(i0,k1)):""
+o6=l6.h(i0,l8)!=null?J.d(J.b(l6.h(i0,l8),"y")):""
+k6=B.c.O(A.U(A.T(o5)),2)
 k7=$.eH
 if(k7==null)A.er(k6)
 else k7.$1(k6)
-if(A.U(A.T(o3))===0)m5="N/A"
-j5.push(new A.mK("Graph",k8,l0,k2,k0+" "+l7,b7,B.c.O(A.U(A.T(o3)),n3),n5,m7,o4,"",""))}s=J.f(J.b(J.b(J.b(p,"FINAL"),a1),"RESULTFORMAT"),"Picture")?25:26
+if(A.U(A.T(o5))===0)m5="N/A"
+j5.push(new A.mK("Graph",k8,l0,k2,k0+" "+l7,b7,B.c.O(A.U(A.T(o5)),n5),n7,m9,o6,"",""))}s=J.f(J.b(J.b(J.b(p,"FINAL"),a1),"RESULTFORMAT"),"Picture")?25:26
 break
 case 25:m6=0
 case 27:if(!(m6<j7.length)){s=29
@@ -101171,31 +101175,31 @@ l7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"FREQUENCY"))
 l7=A.b7(l7,"?","pcs/Lot")
 l7=A.b7(l7,"[]","pcs/Lot")
 d1=""
-m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
+m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
 l8=new A.rv($,new A.p0(A.a([B.ej],l4)),$,new A.qW(A.a77()),!1)
 l9=A.a8u()
 l8.n0$=l9
 l8.kN$=new A.r3(A.aY(l3))
 s=34
 return A.B(l8.ai(u.E,A.ar(["masterID",J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")):""],h4,h4),h5),$async$kt)
-case 34:n0=p4
-if(n0.c===200){h7=n0.a
+case 34:n2=p6
+if(n2.c===200){h7=n2.a
 l8=J.ad(h7)
-n1=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n1=""
+n3=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n3=""
 k9=0
 while(!0){if(!(k9<h9.gp(i4))){l0=""
 break}if(J.d(J.b(h9.h(i4,k9),"masterID"))===""){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
 break}++k9}for(k8="",k3="",k9=0;k9<j8.gp(i3);++k9)if(J.d(J.b(j8.h(i3,k9),"key"))===k1){k8=J.d(J.b(j8.h(i3,k9),"value"))
 k3=J.d(J.b(j8.h(i3,k9),"METHOD"))}for(k9=0;k9<h9.gp(i4);++k9)if(J.d(J.b(h9.h(i4,k9),"masterID"))===k3){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
 break}for(l2=0;l2<h8.gp(i5);++l2)if(J.d(J.b(h8.h(i5,l2),"ITEMs"))===k1)d1=J.d(J.b(h8.h(i5,l2),"SPECIFICATION"))
-n4=0
-while(!0){if(!(n4<k4.gp(i7))){n3=1
-break}if(J.d(J.b(k4.h(i7,n4),"ITEMs"))===k1){n3=A.cE(A.T(J.b(k4.h(i7,n4),"DESIMAL01")),null)
-break}++n4}n5=A.a([],j9)
-for(n6=0;n6<20;){++n6
-l8="PSC"+n6
-if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n7=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
-n8=A.a7c()
+n6=0
+while(!0){if(!(n6<k4.gp(i7))){n5=1
+break}if(J.d(J.b(k4.h(i7,n6),"ITEMs"))===k1){n5=A.cE(A.T(J.b(k4.h(i7,n6),"DESIMAL01")),null)
+break}++n6}n7=A.a([],j9)
+for(n8=0;n8<20;){++n8
+l8="PSC"+n8
+if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n9=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
+o0=A.a7c()
 d2=0
 d3=0
 try{d4=A.b7(d0,"{",'{"')
@@ -101209,72 +101213,72 @@ e1=""
 for(e2=0;e2<J.a2(o);++e2)if(J.f(e0,J.d(J.b(J.b(o,e2),"masterID")))){e1=J.d(J.b(J.b(o,e2),"UNIT"))
 break}l8=d9
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"BTW",0)){l8=J.d(J.b(d8,"BTW_LOW"))
 l9=J.d(J.b(d8,"BTW_HI"))
-n2=e1
-d1=l8+"-"+l9+" "+A.b7(n2,"?","\xb5")
+n4=e1
+d1=l8+"-"+l9+" "+A.b7(n4,"?","\xb5")
 d2=A.U(A.T(J.d(J.b(d8,"BTW_HI"))))
 d3=A.U(A.T(J.d(J.b(d8,"BTW_LOW"))))}else{l8=d9
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"LOL(<)",0)){l8=J.d(J.b(d8,"LOL_H"))
 l9=e1
 d1="\u2264 "+l8+" "+A.b7(l9,"?","\xb5")
 d2=A.U(A.T(J.d(J.b(d8,"LOL_H"))))}else{l8=d9
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"HIM(>)",0)){l8=J.d(J.b(d8,"HIM_L"))
 l9=e1
 d1="\u2265 "+l8+" "+A.b7(l9,"?","\xb5")
 d3=A.U(A.T(J.d(J.b(d8,"HIM_L"))))}else{l8=d9
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
-if(A.cv(l8,"Actual",0))d1="Actual"}}}}}catch(p2){e3=A.ap(p2)
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
+if(A.cv(l8,"Actual",0))d1="Actual"}}}}}catch(p4){e3=A.ap(p4)
 k6=A.l(e3)
 k7=$.eH
 if(k7==null)A.er(k6)
-else k7.$1(k6)}for(l8=J.ad(n7),o0=0;o0<l8.gp(n7);++o0){n8.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data")))),n3)
-n8.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data")))),n3)
-n8.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC3data")))),n3)
-n8.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC4data")))),n3)
-if(J.d(J.b(l8.h(n7,o0),"PIC1data"))==="0"){n8.x2=""
-n8.b=0}else if(J.d(J.b(l8.h(n7,o0),"PIC2data"))==="0"){o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-n8.x2=B.c.O(o5/1,n3)
-n8.b=1
-h3.push(String(A.bA(d2,d3,o5)))}else if(J.d(J.b(l8.h(n7,o0),"PIC3data"))==="0"){o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-o6=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data"))))
-n8.x2=B.c.O((o5+o6)/2,n3)
-n8.b=2
-h3.push(String(A.bA(d2,d3,o5)))
-h3.push(String(A.bA(d2,d3,o6)))}else if(J.d(J.b(l8.h(n7,o0),"PIC4data"))==="0"){o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-o6=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data"))))
-o7=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC3data"))))
-n8.x2=B.c.O((o5+o6+o7)/3,n3)
-n8.b=3
-h3.push(String(A.bA(d2,d3,o5)))
-h3.push(String(A.bA(d2,d3,o6)))
-h3.push(String(A.bA(d2,d3,o7)))}else{o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-o6=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data"))))
-o7=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC3data"))))
-o8=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC4data"))))
-n8.x2=B.c.O((o5+o6+o7+o7)/4,n3)
-n8.b=4
-h3.push(String(A.bA(d2,d3,o5)))
-h3.push(String(A.bA(d2,d3,o6)))
+else k7.$1(k6)}for(l8=J.ad(n9),o2=0;o2<l8.gp(n9);++o2){o0.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data")))),n5)
+o0.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data")))),n5)
+o0.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC3data")))),n5)
+o0.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC4data")))),n5)
+if(J.d(J.b(l8.h(n9,o2),"PIC1data"))==="0"){o0.x2=""
+o0.b=0}else if(J.d(J.b(l8.h(n9,o2),"PIC2data"))==="0"){o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o0.x2=B.c.O(o7/1,n5)
+o0.b=1
+h3.push(String(A.bA(d2,d3,o7)))}else if(J.d(J.b(l8.h(n9,o2),"PIC3data"))==="0"){o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o8=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data"))))
+o0.x2=B.c.O((o7+o8)/2,n5)
+o0.b=2
 h3.push(String(A.bA(d2,d3,o7)))
-h3.push(String(A.bA(d2,d3,o8)))}if(o0===0){if(m0.as===""){l9=J.d(J.b(l8.h(n7,o0),"PIC1"))
+h3.push(String(A.bA(d2,d3,o8)))}else if(J.d(J.b(l8.h(n9,o2),"PIC4data"))==="0"){o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o8=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data"))))
+o9=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC3data"))))
+o0.x2=B.c.O((o7+o8+o9)/3,n5)
+o0.b=3
+h3.push(String(A.bA(d2,d3,o7)))
+h3.push(String(A.bA(d2,d3,o8)))
+h3.push(String(A.bA(d2,d3,o9)))}else{o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o8=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data"))))
+o9=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC3data"))))
+p0=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC4data"))))
+o0.x2=B.c.O((o7+o8+o9+o9)/4,n5)
+o0.b=4
+h3.push(String(A.bA(d2,d3,o7)))
+h3.push(String(A.bA(d2,d3,o8)))
+h3.push(String(A.bA(d2,d3,o9)))
+h3.push(String(A.bA(d2,d3,p0)))}if(o2===0){if(m0.as===""){l9=J.d(J.b(l8.h(n9,o2),"PIC1"))
 m0.as=l9
-if(l9!==u.x)m0.at=k8}if(m0.ax===""){l9=J.d(J.b(l8.h(n7,o0),"PIC2"))
+if(l9!==u.x)m0.at=k8}if(m0.ax===""){l9=J.d(J.b(l8.h(n9,o2),"PIC2"))
 m0.ax=l9
-if(l9!==u.x)m0.ay=k8}}if(o0===1)if(m0.ax===""){l9=J.d(J.b(l8.h(n7,o0),"PIC2"))
+if(l9!==u.x)m0.ay=k8}}if(o2===1)if(m0.ax===""){l9=J.d(J.b(l8.h(n9,o2),"PIC2"))
 m0.ax=l9
-if(l9!==u.x)m0.ay=k8}}n5.push(n8)}else break}for(o1=0,o2=0;o2<n5.length;++o2)o1+=A.U(A.T(n5[o2].x2))
-j5.push(new A.mK("Picture",k8,l0,k2,k0+" "+l7,d1,d1,n5,m7,"",n1,""))
+if(l9!==u.x)m0.ay=k8}}n7.push(o0)}else break}for(o3=0,o4=0;o4<n7.length;++o4)o3+=A.U(A.T(n7[o4].x2))
+j5.push(new A.mK("Picture",k8,l0,k2,k0+" "+l7,d1,d1,n7,m9,"",n3,""))
 case 33:case 31:case 28:++m6
 s=27
 break
@@ -101294,30 +101298,30 @@ l7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"FREQUENCY"))
 l7=A.b7(l7,"?","pcs/Lot")
 l7=A.b7(l7,"[]","pcs/Lot")
 e5=""
-m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
+m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
 l8=new A.rv($,new A.p0(A.a([B.ej],l4)),$,new A.qW(A.a77()),!1)
 l9=A.a8u()
 l8.n0$=l9
 l8.kN$=new A.r3(A.aY(l3))
 s=44
 return A.B(l8.ai(u.E,A.ar(["masterID",J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")):""],h4,h4),h5),$async$kt)
-case 44:n0=p4
-if(n0.c===200){h7=n0.a
+case 44:n2=p6
+if(n2.c===200){h7=n2.a
 l8=J.ad(h7)
-n1=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n1=""
+n3=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n3=""
 k9=0
 while(!0){if(!(k9<h9.gp(i4))){l0=""
 break}if(J.d(J.b(h9.h(i4,k9),"masterID"))===""){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
 break}++k9}for(k8="",k3="",k9=0;k9<j8.gp(i3);++k9)if(J.d(J.b(j8.h(i3,k9),"key"))===k1){k8=J.d(J.b(j8.h(i3,k9),"value"))
 k3=J.d(J.b(j8.h(i3,k9),"METHOD"))}for(k9=0;k9<h9.gp(i4);++k9)if(J.d(J.b(h9.h(i4,k9),"masterID"))===k3){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
-break}n4=0
-while(!0){if(!(n4<k4.gp(i7))){n3=1
-break}if(J.d(J.b(k4.h(i7,n4),"ITEMs"))===k1){n3=A.cE(A.T(J.b(k4.h(i7,n4),"DESIMAL01")),null)
-break}++n4}n5=A.a([],j9)
-for(n6=0;n6<20;){++n6
-l8="PSC"+n6
-if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n7=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
-n8=A.a7c()
+break}n6=0
+while(!0){if(!(n6<k4.gp(i7))){n5=1
+break}if(J.d(J.b(k4.h(i7,n6),"ITEMs"))===k1){n5=A.cE(A.T(J.b(k4.h(i7,n6),"DESIMAL01")),null)
+break}++n6}n7=A.a([],j9)
+for(n8=0;n8<20;){++n8
+l8="PSC"+n8
+if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n9=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
+o0=A.a7c()
 e6=0
 e7=0
 try{e8=A.b7(e4,"{",'{"')
@@ -101331,72 +101335,72 @@ f5=""
 for(f6=0;f6<J.a2(o);++f6)if(J.f(f4,J.d(J.b(J.b(o,f6),"masterID")))){f5=J.d(J.b(J.b(o,f6),"UNIT"))
 break}l8=f3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"BTW",0)){l8=J.d(J.b(f2,"BTW_LOW"))
 l9=J.d(J.b(f2,"BTW_HI"))
-n2=f5
-e5=l8+"-"+l9+" "+A.b7(n2,"?","\xb5")
+n4=f5
+e5=l8+"-"+l9+" "+A.b7(n4,"?","\xb5")
 e6=A.U(A.T(J.d(J.b(f2,"BTW_HI"))))
 e7=A.U(A.T(J.d(J.b(f2,"BTW_LOW"))))}else{l8=f3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"LOL(<)",0)){l8=J.d(J.b(f2,"LOL_H"))
 l9=f5
 e5="\u2264 "+l8+" "+A.b7(l9,"?","\xb5")
 e6=A.U(A.T(J.d(J.b(f2,"LOL_H"))))}else{l8=f3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"HIM(>)",0)){l8=J.d(J.b(f2,"HIM_L"))
 l9=f5
 e5="\u2265 "+l8+" "+A.b7(l9,"?","\xb5")
 e7=A.U(A.T(J.d(J.b(f2,"HIM_L"))))}else{l8=f3
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
-if(A.cv(l8,"Actual",0))e5="Actual"}}}}}catch(p2){f7=A.ap(p2)
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
+if(A.cv(l8,"Actual",0))e5="Actual"}}}}}catch(p4){f7=A.ap(p4)
 k6=A.l(f7)
 k7=$.eH
 if(k7==null)A.er(k6)
-else k7.$1(k6)}for(l8=J.ad(n7),o0=0;o0<l8.gp(n7);++o0){n8.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data")))),n3)
-n8.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data")))),n3)
-n8.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC3data")))),n3)
-n8.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC4data")))),n3)
-if(J.d(J.b(l8.h(n7,o0),"PIC1data"))==="0"){n8.x2=""
-n8.b=0}else if(J.d(J.b(l8.h(n7,o0),"PIC2data"))==="0"){o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-n8.x2=B.c.O(o5/1,n3)
-n8.b=1
-h3.push(String(A.bA(e6,e7,o5)))}else if(J.d(J.b(l8.h(n7,o0),"PIC3data"))==="0"){o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-o6=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data"))))
-n8.x2=B.c.O((o5+o6)/2,n3)
-n8.b=2
-h3.push(String(A.bA(e6,e7,o5)))
-h3.push(String(A.bA(e6,e7,o6)))}else if(J.d(J.b(l8.h(n7,o0),"PIC4data"))==="0"){o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-o6=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data"))))
-o7=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC3data"))))
-n8.x2=B.c.O((o5+o6+o7)/3,n3)
-n8.b=3
-h3.push(String(A.bA(e6,e7,o5)))
-h3.push(String(A.bA(e6,e7,o6)))
-h3.push(String(A.bA(e6,e7,o7)))}else{o5=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC1data"))))
-o6=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC2data"))))
-o7=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC3data"))))
-o8=A.U(A.T(J.d(J.b(l8.h(n7,o0),"PIC4data"))))
-n8.x2=B.c.O((o5+o6+o7+o7)/4,n3)
-n8.b=4
-h3.push(String(A.bA(e6,e7,o5)))
-h3.push(String(A.bA(e6,e7,o6)))
+else k7.$1(k6)}for(l8=J.ad(n9),o2=0;o2<l8.gp(n9);++o2){o0.d=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data")))),n5)
+o0.e=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data")))),n5)
+o0.f=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC3data")))),n5)
+o0.r=B.c.O(A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC4data")))),n5)
+if(J.d(J.b(l8.h(n9,o2),"PIC1data"))==="0"){o0.x2=""
+o0.b=0}else if(J.d(J.b(l8.h(n9,o2),"PIC2data"))==="0"){o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o0.x2=B.c.O(o7/1,n5)
+o0.b=1
+h3.push(String(A.bA(e6,e7,o7)))}else if(J.d(J.b(l8.h(n9,o2),"PIC3data"))==="0"){o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o8=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data"))))
+o0.x2=B.c.O((o7+o8)/2,n5)
+o0.b=2
 h3.push(String(A.bA(e6,e7,o7)))
-h3.push(String(A.bA(e6,e7,o8)))}if(o0===0){if(m0.as===""){l9=J.d(J.b(l8.h(n7,o0),"PIC1"))
+h3.push(String(A.bA(e6,e7,o8)))}else if(J.d(J.b(l8.h(n9,o2),"PIC4data"))==="0"){o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o8=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data"))))
+o9=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC3data"))))
+o0.x2=B.c.O((o7+o8+o9)/3,n5)
+o0.b=3
+h3.push(String(A.bA(e6,e7,o7)))
+h3.push(String(A.bA(e6,e7,o8)))
+h3.push(String(A.bA(e6,e7,o9)))}else{o7=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC1data"))))
+o8=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC2data"))))
+o9=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC3data"))))
+p0=A.U(A.T(J.d(J.b(l8.h(n9,o2),"PIC4data"))))
+o0.x2=B.c.O((o7+o8+o9+o9)/4,n5)
+o0.b=4
+h3.push(String(A.bA(e6,e7,o7)))
+h3.push(String(A.bA(e6,e7,o8)))
+h3.push(String(A.bA(e6,e7,o9)))
+h3.push(String(A.bA(e6,e7,p0)))}if(o2===0){if(m0.as===""){l9=J.d(J.b(l8.h(n9,o2),"PIC1"))
 m0.as=l9
-if(l9!==u.x)m0.at=k8}if(m0.ax===""){l9=J.d(J.b(l8.h(n7,o0),"PIC2"))
+if(l9!==u.x)m0.at=k8}if(m0.ax===""){l9=J.d(J.b(l8.h(n9,o2),"PIC2"))
 m0.ax=l9
-if(l9!==u.x)m0.ay=k8}}if(o0===1)if(m0.ax===""){l9=J.d(J.b(l8.h(n7,o0),"PIC2"))
+if(l9!==u.x)m0.ay=k8}}if(o2===1)if(m0.ax===""){l9=J.d(J.b(l8.h(n9,o2),"PIC2"))
 m0.ax=l9
-if(l9!==u.x)m0.ay=k8}}n5.push(n8)}else break}for(o1=0,o2=0;o2<n5.length;++o2)o1+=A.U(A.T(n5[o2].x2))
-j5.push(new A.mK("OCR",k8,l0,k2,k0+" "+l7,e5,B.c.O(o1,n3),n5,m7,"",n1,""))
+if(l9!==u.x)m0.ay=k8}}n7.push(o0)}else break}for(o3=0,o4=0;o4<n7.length;++o4)o3+=A.U(A.T(n7[o4].x2))
+j5.push(new A.mK("OCR",k8,l0,k2,k0+" "+l7,e5,B.c.O(o3,n5),n7,m9,"",n3,""))
 case 43:case 41:case 38:++m6
 s=37
 break
@@ -101417,7 +101421,7 @@ l7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"FREQUENCY"))
 l7=A.b7(l7,"?","pcs/Lot")
 l7=A.b7(l7,"[]","pcs/Lot")
 f9=""
-m7=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
+m9=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"LOAD"))
 g0=0
 g1=0
 l8=new A.rv($,new A.p0(A.a([B.ej],l4)),$,new A.qW(A.a77()),!1)
@@ -101426,11 +101430,11 @@ l8.n0$=l9
 l8.kN$=new A.r3(A.aY(l3))
 s=54
 return A.B(l8.ai(u.E,A.ar(["masterID",J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"REMARK")):""],h4,h4),h5),$async$kt)
-case 54:n0=p4
-if(n0.c===200){h7=n0.a
+case 54:n2=p6
+if(n2.c===200){h7=n2.a
 l8=J.ad(h7)
-n1=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n1=""
-m8=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"SRAWDATA"))
+n3=l8.h(h7,"COMMENT")!=null?J.d(l8.h(h7,"COMMENT")):""}else n3=""
+n0=J.d(J.b(J.b(J.b(p,"FINAL"),a1),"SRAWDATA"))
 try{g2=A.b7(f8,"{",'{"')
 g3=A.b7(g2,"}",'"}')
 g4=A.b7(g3,":",'":"')
@@ -101442,8 +101446,8 @@ g9=""
 for(h0=0;h0<J.a2(o);++h0)if(J.f(g8,J.d(J.b(J.b(o,h0),"masterID")))){g9=J.d(J.b(J.b(o,h0),"UNIT"))
 break}l8=g7
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"BTW",0)){k6=A.l(J.b(g6,"BTW_LOW"))
 k7=$.eH
 if(k7==null)A.er(k6)
@@ -101454,28 +101458,28 @@ if(k7==null)A.er(k6)
 else k7.$1(k6)
 l8=J.d(J.b(g6,"BTW_LOW"))
 l9=J.d(J.b(g6,"BTW_HI"))
-n2=g9
-f9=l8+"-"+l9+" "+A.b7(n2,"?","\xb5")
+n4=g9
+f9=l8+"-"+l9+" "+A.b7(n4,"?","\xb5")
 g0=A.U(A.T(J.d(J.b(g6,"BTW_HI"))))
 g1=A.U(A.T(J.d(J.b(g6,"BTW_LOW"))))}else{l8=g7
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"LOL(<)",0)){l8=J.d(J.b(g6,"LOL_H"))
 l9=g9
 f9="\u2264 "+l8+" "+A.b7(l9,"?","\xb5")
 g0=A.U(A.T(J.d(J.b(g6,"LOL_H"))))}else{l8=g7
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
 if(A.cv(l8,"HIM(>)",0)){l8=J.d(J.b(g6,"HIM_L"))
 l9=g9
 f9="\u2265 "+l8+" "+A.b7(l9,"?","\xb5")
 g1=A.U(A.T(J.d(J.b(g6,"HIM_L"))))}else{l8=g7
 l9=J.ad(l8)
-n2=l9.gp(l8)
-if(0>n2)A.O(A.bz(0,0,l9.gp(l8),null,null))
-if(A.cv(l8,"Actual",0))f9="Actual"}}}}}catch(p2){h1=A.ap(p2)
+n4=l9.gp(l8)
+if(0>n4)A.O(A.bz(0,0,l9.gp(l8),null,null))
+if(A.cv(l8,"Actual",0))f9="Actual"}}}}}catch(p4){h1=A.ap(p4)
 k6=A.l(h1)
 k7=$.eH
 if(k7==null)A.er(k6)
@@ -101483,23 +101487,23 @@ else k7.$1(k6)}for(k8="",k3="",k9=0;k9<j8.gp(i3);++k9)if(J.d(J.b(j8.h(i3,k9),"ke
 k3=J.d(J.b(j8.h(i3,k9),"METHOD"))}k9=0
 while(!0){if(!(k9<h9.gp(i4))){l0=""
 break}if(J.d(J.b(h9.h(i4,k9),"masterID"))===k3){l0=J.d(J.b(h9.h(i4,k9),"METHOD"))
-break}++k9}n4=0
-while(!0){if(!(n4<k4.gp(i7))){n3=4
-break}if(J.d(J.b(k4.h(i7,n4),"ITEMs"))===k1){n3=A.cE(A.T(J.b(k4.h(i7,n4),"DESIMAL01")),null)
-break}++n4}n5=A.a([],j9)
-for(n6=0;n6<20;){++n6
-l8="PSC"+n6
-if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n7=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
-n8=A.a7c()
+break}++k9}n6=0
+while(!0){if(!(n6<k4.gp(i7))){n5=4
+break}if(J.d(J.b(k4.h(i7,n6),"ITEMs"))===k1){n5=A.cE(A.T(J.b(k4.h(i7,n6),"DESIMAL01")),null)
+break}++n6}n7=A.a([],j9)
+for(n8=0;n8<20;){++n8
+l8="PSC"+n8
+if(J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)!=null){n9=J.b(J.b(h2.h(i1,j7[m6]),J.b(J.b(J.b(p,"FINAL"),a1),"ITEMs")),l8)
+o0=A.a7c()
 k6=A.l(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA"))
 k7=$.eH
 if(k7==null)A.er(k6)
 else k7.$1(k6)
-n9=(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")):"")==="yes"?"PO5":"PO3"
-n8.x2=J.d(J.b(J.b(n7,0),n9))
-n8.b=0
-n5.push(n8)}else break}o9=A.U(A.T(J.d(l6.h(i0,k1))))
-j5.push(new A.mK("CAL1",k8,l0,k2,k0+" "+l7,f9,B.c.O(o9,n3),n5,m7,"",n1,m8))
+o1=(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")!=null?J.d(J.b(J.b(J.b(p,"FINAL"),a1),"CONVERSEDATA")):"")==="yes"?"PO5":"PO3"
+o0.x2=J.d(J.b(J.b(n9,0),o1))
+o0.b=0
+n7.push(o0)}else break}p1=A.U(A.T(J.d(l6.h(i0,k1))))
+j5.push(new A.mK("CAL1",k8,l0,k2,k0+" "+l7,f9,B.c.O(p1,n5),n7,m9,"",n3,n0))
 case 53:case 51:case 48:++m6
 s=47
 break
@@ -101509,11 +101513,11 @@ break
 case 14:if(m5==="")if(B.d.A(h3,"false"))m0.db="NO PASSED"
 else m0.db="PASSED"
 else m0.db="N/A"
-p0.c=m0
-p0.a=j5
-p0.b=j6
+p2.c=m0
+p2.a=j5
+p2.b=j6
 case 6:case 4:A.cO(h3)
-q.fd(p0)
+q.fd(p2)
 return A.D(null,r)}})
 return A.E($async$kt,r)},
 Fp(){var s=0,r=A.F(t.H),q=this
