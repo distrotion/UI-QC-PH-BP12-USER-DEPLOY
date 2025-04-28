@@ -111514,7 +111514,7 @@ m0=j2.h(k8,"PARTNAME")!=null?J.d(j2.h(k8,"PARTNAME")):""
 m9=j2.h(k8,"PART")!=null?J.d(j2.h(k8,"PART")):""
 n1=j2.h(k8,"CUSLOT")!=null?J.d(j2.h(k8,"CUSLOT")):"-"
 n2=j2.h(k8,"FG_CHARG")!=null?J.d(j2.h(k8,"FG_CHARG")):""
-n3=j2.h(k8,"MATERIAL")!=null?J.d(j2.h(k8,"MATERIAL")):""
+n3=j2.h(k8,"MATERIAL_s")!=null?J.d(j2.h(k8,"MATERIAL_s")):""
 n4=j2.h(k8,"QTY")!=null?J.d(j2.h(k8,"QTY")):""
 n5=j2.h(k8,"UNITSAP")!=null?J.d(j2.h(k8,"UNITSAP")):"  PCS"
 n6=A.To(k7,k6,l3,n1,l4,"","",k5,n3,m0,m9,l2,l9,n4,j2.h(k8,"REFLOT")!=null?J.d(j2.h(k8,"REFLOT")):"",n2,n5)
