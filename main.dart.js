@@ -35605,7 +35605,7 @@ break
 case 12:g=J.d(J.b(h,"PIC"))
 f=B.dK.cO(g)
 s=14
-return A.H(A.aZ9(f,a0+".pdf"),$async$q8)
+return A.H(A.aZ9(f,a0+"-QC.pdf"),$async$q8)
 case 14:case 13:case 11:q="ok"
 s=1
 break
